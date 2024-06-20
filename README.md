@@ -6,7 +6,7 @@ This repository contains a WCF service implemented with Azure Table and Blob Sto
 - `Login(login, password)`: Verifies if the user exists and checks the password. If valid, it creates a new session identifier and returns it.
 - `Logout(login)`: Deletes the session for the specified user.
 - `Put(name, content, session_id)`: Creates a file (BLOB) with the specified name and content, if the session ID is valid.
-- `Get(name, session_id) -> string`: Retrieves the content of the file with the specified name, if the session ID is valid.
+- `Get(name, session_id)`: Retrieves the content of the file with the specified name, if the session ID is valid.
 
 ## Project Structure
 
